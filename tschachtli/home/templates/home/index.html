@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ihre Innenarchitekten für Klang und Bild mit 24/7 Aftersale Service">
+    <meta name="keywords" content="Sound, Vision, Audiosysteme, HIFI, Heimkino">
+    <meta name="author" content="Peter Wagner">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tschachtli AG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__titlewrapper">
+            <img src="{% static 'pics/logo.PNG' %}" alt="Logo" class="header__logo">
+            <h1 class="header__title">Ihre Innenarchitekten für Klang und Bild mit 24/7 Aftersale Service</h1>
+        </div>
+        <div class="header__picwrapper">
+            <img src="{% static 'pics/header.PNG' %}" alt="Wohnzimmer" class="header__pic">
+        </div>
+        <h2 class="header__descriptiontitle">Wellness für ihre Augen und Ohren</h2>
+        <p class="header__description">
+            Ein Home Entertainment System ist eine Investition, die Ihnen jahrelang Freude bereiten soll. Bei der Beratung berücksichtigen wir deshalb nebst Ihren individuellen Bedürfnissen auch Ihre Wohnsituation und kreieren massgeschneiderte Lösungen nach Ihrem Geschmack. Dabei arbeiten wir mit hochwertigen Marken wie zum Beispiel Loewe, Bang & Olufsen, Revox, Sonos, Bose NADE oder Marantz. Interessieren Sie sich für deren Design oder möchten Sie sich inspirieren lassen? Besuchen Sie unseren Showroom in Wohlen. Übrigens: Wir sind auch Jahre nach dem Kauf 24 Stunden am Tag für Sie da.
+        </p>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="section__picwrapper">
+                <img src="{% static 'pics/sec1.PNG' %}" alt="Fernseher" class="section__pic">
+            </div>
+            <div class="section__textwrapper">
+                <h3 class="section__title">Multiroom Systeme</h3>
+                <p class="section__text">
+                    Ihr Leben spielt sich in mehreren Räumen ab. Ihre Musik sollte das auch. Ausgeklügelte Multiroom Systeme sorgen für ein hochwertiges Klangerlebnis in Ihrem ganzen Zuhause, inklusive Garten oder Terrasse. Dank unserer grossen Auswahl finden Sie garantiert eine Anlage, die Ihrem Einrichtungsstil entspricht - ganz egal ob Sie es klassisch, modern, minimalistisch oder zurückhaltend mögen. Sämltliche unserer Multiroom Systems sind leicht zu bedienen und zeichnen sich durch hervorragende Sound-Qualität aus. Für welches entscheiden Sie sich.
+                </p>
+            </div>
+        </section>
+        <section class="section section--reverse">
+            <div class="section__picwrapper">
+                <img src="{% static 'pics/sec2.PNG' %}" alt="Sofa" class="section__pic">
+            </div>
+            <div class="section__textwrapper">
+                <h3 class="section__title">Audiosysteme / HIFI</h3>
+                <p class="section__text">
+                    Jede Anlage hat ihre eigenen Eigenschaften und Vorzüge. Für nicht-Profis sind diese nicht immer leicht zu erkennen. Deshalb immer an Ihrer Seite: Unsere kompetenten Berater. Sie hören Ihnen aufmerksam zu, übersetzen Ihre Bedürfnisse in ein ausgeklügeltes Klang-Konzept und empfehlen ausgewählte Stereo-Anlagen, die selbst höchsten Sound- und Design-Anforderungen gerecht werde - darunter solche von Revox, NAD, T+A oder Sonos.
+                </p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section__picwrapper">
+                <img src="{% static 'pics/sec3.PNG' %}" alt="Fernseher" class="section__pic">
+            </div>
+            <div class="section__textwrapper">
+                <h3 class="section__title">Heimkino und Game Center</h3>
+                <p class="section__text">
+                    Dank gestochen scharfen Bildern und einer unvergleichbaren Soundqualität erleben Sie Filme und Videospiele intensiver denn je zuvor - und das von Zuhause aus. Mit unseren qualitativ hochwertigen Markengeräten und -zubehör, zum Beispiel von Bang & Olufsen, Bose oder Marantz, investieren Sie in ein Heimkino oder Game center, das Ihnen langfristig Freude bereitet.
+                </p>
+            </div>
+        </section>
+        <section class="section section--reverse">
+            <div class="section__picwrapper">
+                <img src="{% static 'pics/sec4.PNG' %}" alt="Fernseher" class="section__pic">
+            </div>
+            <div class="section__textwrapper">
+                <h3 class="section__title">Schöner Wohnen</h3>
+                <p class="section__text">
+                    Lassen Sie Ihre Multimedia-Anlage als Design-Objekt für sich sprechen oder entscheiden Sie sich für eine dezente Variante, die sich nahtlos in Ihr stilvoll eingerichtetes Zuahuse einfügt. In unserem Showroom finden Sie eine grosse Auswahl an Multimediamöbeln und Integrationslösungen für Unterhaltungselektronik, die selbst höchsten ästhetischen Ansprüchen genügen.
+                </p>
+            </div>
+        </section>
+
+        <div class="rating">
+            <h4 class="rating__text">
+                Beste Beratung. Ich bin mit der Home Cinema installation sehr zufrieden. Werde glatte 5 Sterne bei Google abgeben.
+            </h4>
+            <h5 class="rating__person">Max Mustermann</h5>
+            <div class="rating__counter">
+                <button class="rating__btn rating__btn--left"><</button>
+                <p class="rating__nums"><span class="rating__num rating__num--current">1</span>/<span class="rating__num rating__num--total">3</span></p>
+                <button class="rating__btn rating__btn--right">></button>
+            </div>
+    </div>
+
+        <section class="work">
+            <div class="work__wrapper work__wrapper--first">
+                <div class="work__picwrapper">
+                    <img src="{% static 'pics/work1.PNG' %} alt="Zwei Personen beraten sich" class="work__pic">
+                </div>
+                <div class="work__textwrapper">
+                    <h3 class="work__title">Beratung und Planung</h3>
+                    <p class="work__text">
+                        Die perfekte Anlage beginnt mit einer kompetenten Planung und fundierten Beratung. Wir berücksichtigen dabei Ihre Nutzungsverhalten, die Akustik Ihrer Wohnräume und Ihren persönlichen Stil - damit Sie die Anlage erhalten, die wirklich zu Ihnen passt. Darüber hinaus sind wir Ihre ersten Anspechpartner für Themen wie Empfangssysteme, Leerverrohrungen für Antennen, Steuersysteme oder Anbindung an Hausautomationssysteme.
+                    </p>
+                </div>
+            </div>
+            <div class="work__wrapper">
+                <div class="work__picwrapper">
+                    <img src="{% static 'pics/work2.PNG' %}" alt="Zwei Personen beraten sich" class="work__pic">
+                </div>
+                <div class="work__textwrapper">
+                    <h3 class="work__title">Installation</h3>
+                    <p class="work__text">
+                        Wir machen die Arbeit, damit Sie das Vergnügen haben. Unsere gut ausgebildeten Installationstechniker liefern und installieren Ihre Unterhaltungselektronik fachgerecht - vom ersten Kabeleinzug, über die Montage von Stecker und Steckdosen bis hin zum programmieren des Systems.
+                    </p>
+                </div>
+            </div>
+            <div class="work__wrapper">
+                <div class="work__picwrapper">
+                    <img src="{% static 'pics/work3.PNG' %}" alt="Zwei Personen beraten sich" class="work__pic">
+                </div>
+                <div class="work__textwrapper">
+                    <h3 class="work__title">Aftersales Service</h3>
+                    <p class="work__text">
+                        Unsere Service-Spezialisten kümmern sich rund um die Uhr um Ihre Anliegen und sind innerhalb von 24 Stunden bei Ihnen vor Ort. Die meisten Geräte können wir in unserer top ausgestatteten Servicewerkstatt rasch wieder instand setzen. Falls es doch einmal länger dauern sollte, stellen wir Ihnen gerne ein Ersatzgerät zur Verfügung.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="impression">
+            <h3 class="impression__title">Beratungstermin vereinbaren</h3>
+            <div class="impression__carousel">
+                <img src="{% static 'pics/slide1.PNG' %}" alt="Fernseher" class="impression__pic">
+                <div class="impression__navwrapper">
+                    <span class="impression__left"></span>
+                    <div class="impression__counter">
+                        <button class="impression__btn impression__btn--left"><</button>
+                        <p class="impression__nums"><span class="impression__num impression__num--current">1</span>/<span class="impression__num impression__num--total">3</span></p>
+                        <button class="impression__btn impression__btn--right">></button>
+                    </div>
+                        </div>
+            </div>
+        </div>
+
+        <section class="contact">
+            <p class="contact__text contact__text--small">
+                Sind Sie auf der Suche nach dem perfekten Sound- oder Vision-System für Ihr Zuhause? Wir stehen Ihnen mit kompetenter Beratung und ausgeklügelten Lösungen beiseite. Vereinbaren Sie noch heute Ihren persönlichen Beratungstermin. wir freuen uns, Sie kennenzulernen.
+            </p>
+            <div class="contact__wrapper contact__wrapper--pic">
+                <img src="{% static 'pics/keusch.PNG' %}" alt="Herr Bruno Keusch" class="contact__pic">
+            </div>
+            <div class="contact__wrapper contact__wrapper--text">
+                <p class="contact__text contact__text--big">
+                    Sind Sie auf der Suche nach dem perfekten Sound- oder Vision-System für Ihr Zuhause? Wir stehen Ihnen mit kompetenter Beratung und ausgeklügelten Lösungen beiseite. Vereinbaren Sie noch heute Ihren persönlichen Beratungstermin. wir freuen uns, Sie kennenzulernen.
+                </p>
+                <p class="contact__text contact__text--padding"><b>Bruno Keusch</b></p>
+                <p class="contact__text contact__text--padding">Leitung Privatkunden</p>
+                <a href="mailto:brunokeusch@tschachtliag.ch" class="contact__text contact__text--padding">brunokeusch@tschachtliag.ch</a>
+                <a href="tel:+41 56 622 68 66" class="contact__text contact__text--padding">056 622 68 66</a>
+                <p class="contact__text contact__text--padding"><b>Hotline Pikett Dienst 24/7</b></p>
+                <a href="tel:+56 470 37 38" class="contact__text contact__text--padding">056 470 37 38</a>
+            </div>
+        </section>
+
+        <section class="brand">
+            <h3 class="brand__title">Unsere Marken</h3>
+            <div class="brand__picwrapper">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+                <img src="{% static 'pics/marken.PNG' %}" alt="Markenlogo" class="brand__pic">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <h4 class="footer__title">Kontakt</h4>
+            <p class="footer__text"><b>Tschachtli AG</b></p>
+            <p class="footer__text footer__text--underline">Breitistrasse 6</p>
+            <p class="footer__text">5610 Wohlen</p>
+            <a href="mailto:verkauf@tschachtliag.ch" class="footer__text">verkauf@tschachtliag.ch</a>
+            <a href="tel:+56 622 68 66" class="footer__text">056 622 68 66</a>
+            <p class="footer__text  footer__text--top"><b class="footer__text">Hotline Pikett Dienst 24/7</b></p>
+            <a href="tel:+56 470 37 38" class="footer__text">056 470 37 38</a>
+            <a href="www.facebook.com" class="footer__facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer__text footer__text--big">Für Geschäftskunden</a>
+        </div>
+        <div class="footer__wrapper">
+            <h4 class="footer__title">Öffnungszeiten Showroom</h4>
+            <p class="footer__text  footer__text--padding"><b class="footer__text">Montag</b><br>Geschlossen</p>
+            <p class="footer__text  footer__text--padding"><b class="footer__text">Dienstag bis Freitag</b><br>09:00 - 12:00 | 13:30 - 18:30</p>
+            <p class="footer__text  footer__text--padding"><b class="footer__text">Samstag</b><br>08:30 - 16:00</p>
+            <p class="footer__text">
+                Auf Anfrage sind wir gerne auch ausserhalb der offiziellen Öffnungszeiten für Sie da. Setzen Sie sich mit uns in Verbindung und vereinbaren Sie einen Termin.
+            </p>
+            <a href="#" class="footer__text footer__text--small">Für Geschäftskunden</a>
+        </div>
+        <div class="footer__wrapper footer__wrapper--info">
+            <div class="footer__copyright">
+                <p class="footer__info footer__info--border">&copy 2018 Tschachtli AG</p>
+                <a href="#" class="footer__info">Impressum & Datenschutz</a>
+            </div>
+            <p class="footer__info">Mady by allink</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
